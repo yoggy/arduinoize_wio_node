@@ -26,7 +26,7 @@ IO15をHIGHにしないとGROVEコネクタのVccに3.3Vが供給されないら
 ----
 GROVEコネクタのピンアサインは次の通り
 
-* ![img02.png](img02.png)
+![img02.png](img02.png)
 
     D0  (黄色)
     D1  (白)
@@ -35,7 +35,7 @@ GROVEコネクタのピンアサインは次の通り
 
 WioNodeをArduino化したときのピンアサインは次の通り。
 
-* ![img03.png](img03.png)
+![img03.png](img03.png)
 
     PORT0 D0 (UART RX)    → IO3
     PORT0 D1 (UART TX)    → IO1
@@ -53,7 +53,7 @@ WioNodeをArduino化したときのピンアサインは次の通り。
 ----
 Arduinoからスケッチを書き込む際は、USB-UARTとWioNodeは次のように接続する。
 
-* ![img04.png](img04.png)
+![img04.png](img04.png)
 
     WioNode PORT0         USB-UARTな何か(3.3V)
     
