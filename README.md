@@ -1,6 +1,6 @@
 arduinoize_wio_node.ino
 ====
-WioNodeをArduinoとして使うメモ
+ArduinoからWioNodeを使うメモ
 
 * ![img01.jpg](img01.jpg)
 
