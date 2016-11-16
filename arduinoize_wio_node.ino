@@ -62,7 +62,7 @@ void setup_mqtt() {
 }
 
 void reboot() {
-  for(int i = 0; i < 10; ++i) {
+  for (int i = 0; i < 10; ++i) {
     LED_ON()
     delay(100);
     LED_OFF()
@@ -122,7 +122,7 @@ void set_led_colors(byte* payload, unsigned int length) {
   if (len < LED_NUM) {
     int off_len = LED_NUM - len;
     for (int i = LED_NUM - off_len; i < LED_NUM; ++i) {
-      led_strip.setPixelColor(i, led_strip.Color( 0, 0, 0));      
+      led_strip.setPixelColor(i, led_strip.Color( 0, 0, 0));
     }
   }
 

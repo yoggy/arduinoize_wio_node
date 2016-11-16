@@ -45,8 +45,8 @@ WioNodeをArduino化したときのピンアサインは次の通り。
     
     FUNCボタン            → IO0 (ボタンを押すとLOW, 離すとHIGH)
     
-    LED青                 → d2  (LOWにすると点灯、HIGHにすると消灯)
-    LED赤(電源供給と兼用) → d15 (必ずHIGHにしておくこと)
+    LED青                 → IO2  (LOWにすると点灯、HIGHにすると消灯)
+    LED赤(電源供給と兼用) → IO15 (必ずHIGHにしておくこと)
 
 
 書き込み時の接続
