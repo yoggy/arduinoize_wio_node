@@ -35,7 +35,7 @@ GROVEコネクタのピンアサインは次の通り
 
 WioNodeをArduino化したときのピンアサインは次の通り。
 
-* ![img02.png](img02.png)
+* ![img03.png](img03.png)
 
     PORT0 D0 (UART RX)    → IO3
     PORT0 D1 (UART TX)    → IO1
