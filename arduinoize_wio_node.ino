@@ -42,6 +42,7 @@ PubSubClient mqtt_client(mqtt_server, mqtt_port, mqtt_sub_callback, wifi_client)
 
 void setup_mqtt() {
   WiFi.begin(wifi_ssid, wifi_password);
+  WiFi.mode(WIFI_STA);
   int wifi_count = 0;
   while (WiFi.status() != WL_CONNECTED) {
     if (wifi_count % 2 == 0) {
