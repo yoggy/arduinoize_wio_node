@@ -18,10 +18,10 @@
 #define GROVE_PWR   15
 
 // initialize functions for WioNode.
-#define ENABLE_GROVE_CONNECTOR_PWR() {pinMode(GROVE_PWR, OUTPUT);digitalWrite(GROVE_PWR, HIGH);}
-#define INIT_WIO_NODE() {pinMode(BUTTON_FUNC, INPUT);pinMode(LED_BLUE, OUTPUT);ENABLE_GROVE_CONNECTOR_PWR();}
 #define LED_ON()  {digitalWrite(LED_BLUE, LOW);}
 #define LED_OFF() {digitalWrite(LED_BLUE, HIGH);}
+#define ENABLE_GROVE_CONNECTOR_PWR() {pinMode(GROVE_PWR, OUTPUT);digitalWrite(GROVE_PWR, HIGH);}
+#define INIT_WIO_NODE() {pinMode(BUTTON_FUNC, INPUT);pinMode(LED_BLUE, OUTPUT);ENABLE_GROVE_CONNECTOR_PWR();LED_OFF();}
 
 ////////////////////////////////////////////////////////////////////////////////////
 // for Wifi settings
