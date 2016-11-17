@@ -1,0 +1,7 @@
+// Wifi config
+char *wifi_ssid = "ssid";
+char *wifi_password = "password";
+char *mqtt_server   = "iot.eclipse.org";
+int  mqtt_port      = 1883;
+char *mqtt_subscribe_topic = "mqtt_neo_pixel/wio_node/0001";
+

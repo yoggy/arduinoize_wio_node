@@ -28,13 +28,12 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h> // https://github.com/knolleary/pubsubclient/
 
-char *wifi_ssid = "ssid";
-char *wifi_password = "password";
-
-char *mqtt_server   = "iot.eclipse.org";
-int  mqtt_port      = 1883;
-
-char *mqtt_subscribe_topic = "mqtt_neo_pixel/wio_node/0001";
+// Wif config
+extern char *wifi_ssid;
+extern char *wifi_password;
+extern char *mqtt_server;
+extern int  mqtt_port;
+extern char *mqtt_subscribe_topic;
 
 WiFiClient wifi_client;
 void mqtt_sub_callback(char* topic, byte* payload, unsigned int length);
